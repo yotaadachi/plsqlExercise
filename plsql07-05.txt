@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE traiangle(base NUMBER, height NUMBER)
+CREATE OR REPLACE PROCEDURE triangle(base NUMBER, height NUMBER)
 IS
   area NUMBER;
 BEGIN
@@ -6,4 +6,4 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE(area);
 END;
 
-EXECUTE traiangle(10, 20);
+EXECUTE triangle(10, 20);
